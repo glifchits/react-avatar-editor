@@ -1,37 +1,36 @@
 {
-    "name": "react-avatar-editor",
-    "version": "0.4.10",
-    "description": "Facebook like avatar / profile picture component. Resize and crop your uploaded image using a intutive user interface.",
-    "main": "index.js",
-    "scripts": {
-        "start": "watchify example/app.js -o example/bundle.js -v"
-    },
-    "author": {
-        "name": "Moritz Schwoerer",
-        "email": "mr.mosch@gmail.com"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/mosch/react-avatar-editor.git"
-    },
-    "license": "MIT",
-    "keywords": [
-        "react-component",
-        "reactjs",
-        "react"
-    ],
-    "browserify": {
-        "transform": [
-            "reactify"
-        ]
-    },
-    "peerDependencies": {
-        "react": "^0.13.2"
-    },
-    "devDependencies": {
-        "http-server": "^0.7.4",
-        "watchify": "^2.1.1",
-        "reactify": "0.17.1"
-    }
+  "name": "react-avatar-editor",
+  "version": "1.0.0",
+  "description": "Facebook like avatar / profile picture component. Resize and crop your uploaded image using a intutive user interface.",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify example/app.js -o example/bundle.js -v"
+  },
+  "author": {
+    "name": "Moritz Schwoerer",
+    "email": "mr.mosch@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mosch/react-avatar-editor.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react-component",
+    "reactjs",
+    "react"
+  ],
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "peerDependencies": {
+    "react": "^0.13.2"
+  },
+  "devDependencies": {
+    "http-server": "^0.7.4",
+    "watchify": "^2.1.1",
+    "reactify": "0.17.1"
+  }
 }
-
